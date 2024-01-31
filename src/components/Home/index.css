@@ -1,0 +1,74 @@
+.bg-container {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-con {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  margin-top: 10px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 500;
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+.course-list {
+  display: flex;
+  width: 90%;
+  padding: 0px;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+
+.failure-con {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 150px;
+  width: 160px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 25px;
+}
+
+.failure-text {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.failure-button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 90px;
+  background-color: #4656a1;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+}

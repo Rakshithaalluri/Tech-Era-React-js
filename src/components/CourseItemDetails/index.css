@@ -1,0 +1,38 @@
+.details-con {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-con {
+  display: flex;
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 15px 5px rgba(77, 71, 71, 0.1);
+}
+
+.item-image {
+  height: 380px;
+  width: 330px;
+}
+
+.course-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.item-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.item-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
